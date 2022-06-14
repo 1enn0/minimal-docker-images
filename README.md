@@ -1,7 +1,7 @@
 # minimal-docker-images
 Minimal docker images for scientific computation
 
-# Installation
+## Setup
 ```
 # build the image
 ./scripts/Docker/build.sh
