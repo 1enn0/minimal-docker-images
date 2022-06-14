@@ -8,6 +8,9 @@ ENV PATH "$VIRTUAL_ENV/bin:$PATH"
 # Upgrade pip just in case
 RUN python -m pip install --upgrade pip
 
+# Install ffmpeg (for librosa)
+RUN apt update && apt install -y ffmpeg
+
 # Setup workspace dirs
 RUN mkdir -p /workspace/notebooks
 WORKDIR /workspace

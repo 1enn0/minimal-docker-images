@@ -1,6 +1,7 @@
-jupyterlab
-numpy
-matplotlib
-ipywidgets
 ipympl
+ipywidgets
+jupyterlab
+librosa
+matplotlib
+numpy
 pandas
