@@ -1,9 +1,9 @@
 FROM python:3.10.5-slim
 
 # Setup and activate virtual environment
-ENV VIRTUAL_ENV "/venv"
-RUN python -m venv $VIRTUAL_ENV
-ENV PATH "$VIRTUAL_ENV/bin:$PATH"
+# ENV VIRTUAL_ENV "/venv"
+# RUN python -m venv $VIRTUAL_ENV
+# ENV PATH "$VIRTUAL_ENV/bin:$PATH"
 
 # Upgrade pip just in case
 RUN python -m pip install --upgrade pip
