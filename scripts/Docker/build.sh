@@ -1,3 +1,3 @@
 #! /bin/bash -
 
-docker build . -t jupyterlab-cp310
+docker build . -t jupyterlab:cp310
